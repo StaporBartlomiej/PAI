@@ -1,0 +1,25 @@
+h1
+ {
+     color: cornflowerblue;
+     font-size: 400px;
+ }
+@media all and (min-width: 1px) and (max-width: 479px)
+{
+    body {
+        background-color: aqua;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 800px)
+{
+    body {
+        background-color: chocolate;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1600px)
+{
+    body {
+        background-color: darkred;
+    }
+}
