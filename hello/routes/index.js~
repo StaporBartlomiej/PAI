@@ -34,7 +34,7 @@ router.post('studentuj', function (req,res) {
 
 });
 
-router.post('/register', function (req,res) {
+router.post('register', function (req,res) {
     res.render('index2', {title: "test"});
 
 });
