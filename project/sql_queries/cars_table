@@ -1,0 +1,15 @@
+create table cars (
+	id int not null auto_increment,    
+    car_type VARCHAR(10),
+    cost_class VARCHAR(7),
+    car_name varchar(20),
+    price_per_day int,
+    air_conditioning boolean not null default 0,
+    number_of_seats int not null,
+    engine_type varchar(10),
+    transmission varchar(15),
+    bluetooth boolean not null default 0,    
+    primary key (id)
+);
+
+alter table cars add image_link varchar(30);
