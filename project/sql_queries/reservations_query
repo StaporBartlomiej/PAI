@@ -1,0 +1,16 @@
+create table reservations (
+	id int not null auto_increment,
+    consumer_name varchar(50),
+    consumer_surname varchar(50),
+    id_card_number varchar(10),
+    consumer_email varchar(50),
+    consumer_phone int,
+    book_in_date date,
+    book_out_time date,
+    total_price int,
+    is_approved_by_admin boolean default 0,
+    primary key(id)
+);
+alter table reservations change book_out_time book_out_date date;
+
+mozna dodac jeszcze validation do id card number ze ma byc 3 litery i 6 cyfer
