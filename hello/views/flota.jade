@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        link(rel='stylesheet', type='text/css', href='hello/res/CSS/style.css')
+
+        title Home
+    body
+        ul
+            li
+                a(href='/home') Home
+
+            li
+                a(href='/flota') Flota
+
+            li
+                a(href='/admin') Administration
+    h1 Flota
+    div
+        table
+            thead
+                tr:th dane
+                th xD
+                tbody
+                    each item in dane
+                        tr
+                            each row in item
+                                td #{row}

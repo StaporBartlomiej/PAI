@@ -32,7 +32,7 @@ router.get('/home', function(req, res, next) {
 
 router.get('/flota', function (req,res) {
     var test = 'huehue';
-    var query = "select car_type from cars where car_name='Fiat 500';";
+    var query = "select * from cars;";
     var db = mysql.createConnection({
       host: 'localhost',
       user: 'root',
@@ -41,17 +41,17 @@ router.get('/flota', function (req,res) {
 
       });
       db.connect();
-    // res.render('index', { title: 'Express'});
+    // res.render('index', { title: 'Express'});t
     db.query(query, function(error, dane) {
         console.log(dane[0].car_type);
-        res.render('index2', {title: 'Express', dane: dane[0].car_type});
+        res.render('flota', {title: 'Express', dane: dane});
     });
     // res.render('index2', {title: 'flota'});
 
 });
 
 router.get('/admin', function (req,res) {
-    res.render('index3', {title: "Admin Panel"});
+    res.render('admin', {title: "Admin Panel"});
 
 });
 
