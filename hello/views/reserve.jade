@@ -48,7 +48,18 @@ html(lang='en')
         input(type="date" name="book_out_date" required)
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         input(type="time" name="book_out_time" required)
-    br
-    br
+        br
+        br
+        p Imię:
+        input(type=text name="customer_name" required)
+        p Nazwisko
+        input(type=text name="customer_surname" required)
+        p Numer dowodu osobistego
+        input(type=text name="ID_card_number" required)
+        p E-mail
+        input(type=email name="email" required)
+        p Telefon Kontaktowy
+        input(type=number name="customer_phone" required)
+        p
     input(type="submit")
 

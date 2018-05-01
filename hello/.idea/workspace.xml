@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891d0b6b-e958-48b4-9a98-01928dcfcd1c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/register.jade" afterPath="$PROJECT_DIR$/views/reserve.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin.jade" afterPath="$PROJECT_DIR$/views/admin.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/flota.jade" afterPath="$PROJECT_DIR$/views/flota.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reserve.jade" afterPath="$PROJECT_DIR$/views/reserve.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,13 +62,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <marker date="1525207219272" expanded="true" signature="18:384" ph="..." />
-                <marker date="1525207219272" expanded="true" signature="160:384" ph="..." />
-                <marker date="1525207219272" expanded="true" signature="169:384" ph="..." />
-                <marker date="1525207219272" expanded="true" signature="341:384" ph="..." />
-                <marker date="1525207219272" expanded="true" signature="357:384" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,9 +70,12 @@
       <file leaf-file-name="reserve.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/reserve.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="370">
+              <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding>
+                <marker date="1525207729242" expanded="true" signature="1796:2329" ph="..." />
+                <marker date="1525207729242" expanded="true" signature="2276:2329" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -344,7 +337,7 @@
       <workItem from="1524493363663" duration="1403000" />
       <workItem from="1524994439544" duration="1276000" />
       <workItem from="1525188540204" duration="229000" />
-      <workItem from="1525188787696" duration="13981000" />
+      <workItem from="1525188787696" duration="14434000" />
     </task>
     <task id="LOCAL-00001" summary="Got data from database and put it in table">
       <created>1525196314558</created>
@@ -381,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525206726764</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created new button reserve and moved index content here. there user will provide info needed to make a reservation">
+      <created>1525207310880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525207310880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16889000" />
+    <option name="totallyTimeSpent" value="17342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="264" y="198" width="1602" height="872" extended-state="6" />
@@ -434,7 +434,8 @@
     <MESSAGE value="Cars are now being displayed properly in 2nd tab" />
     <MESSAGE value="Home font mostly done, css left" />
     <MESSAGE value="Added validation, fields are now required" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added validation, fields are now required" />
+    <MESSAGE value="Created new button reserve and moved index content here. there user will provide info needed to make a reservation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new button reserve and moved index content here. there user will provide info needed to make a reservation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -493,13 +494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525207219272" expanded="true" signature="18:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="160:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="169:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="341:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="357:384" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -515,13 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525207219272" expanded="true" signature="18:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="160:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="169:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="341:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="357:384" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -577,13 +566,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525207219272" expanded="true" signature="18:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="160:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="169:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="341:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="357:384" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,14 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/flota.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -717,21 +692,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1525207219272" expanded="true" signature="18:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="160:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="169:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="341:384" ph="..." />
-            <marker date="1525207219272" expanded="true" signature="357:384" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/flota.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/reserve.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="370">
+          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <marker date="1525207729242" expanded="true" signature="1796:2329" ph="..." />
+            <marker date="1525207729242" expanded="true" signature="2276:2329" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
