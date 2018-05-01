@@ -55,7 +55,7 @@ router.get('/admin', function (req,res) {
 
 });
 
-router.get('/register', function (req,res) {
+router.post('/register', function (req,res) {
     res.render('register', {title: "Register"});
 
 });
