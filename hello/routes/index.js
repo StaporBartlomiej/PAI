@@ -32,20 +32,21 @@ router.get('/home', function(req, res, next) {
 
 router.get('/flota', function (req,res) {
     var test = 'huehue';
-    var query = 'select * from cars;';
+    var query = "select car_type from cars where car_name='Fiat 500';";
     var db = mysql.createConnection({
-      host: '172.30.24.12',
-      user: 'dzida_1119580',
-      password: '58118057',
-      database: 'DZIDA'
+      host: 'localhost',
+      user: 'root',
+      password: 'admin',
+      database: 'PAI_PROJECT'
 
       });
       db.connect();
-    res.render('index', { title: 'Express'});
+    // res.render('index', { title: 'Express'});
     db.query(query, function(error, dane) {
-        res.render('index', {title: 'Express', dane: dane});
+        console.log(dane[0].car_type);
+        res.render('index2', {title: 'Express', dane: dane[0].car_type});
     });
-    res.render('index2', {title: 'flota'});
+    // res.render('index2', {title: 'flota'});
 
 });
 
