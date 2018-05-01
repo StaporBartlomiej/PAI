@@ -16,41 +16,10 @@ html(lang='en')
 
           li
               a(href='/admin') Administration
+          li
+              a(href='/reserve') Reserve
 
-    form(method='POST' action='register')
-        p Odbiór
-        select(name='book_in_place' required)
-            option(value='bialystok') Białystok
-            option(value='bielsko_biala') Bielsko-Biała
-            option(value='bydgoszcz') Bydgoszcz
-            option(value='Bytom') Bytom
-            option(value='gdansk') Gdańsk
-            option(value='katowice') Katowice
-            option(value='kielce') Kielce
-            option(value='krakow') Kraków
-            option(value='warszawa') Warszawa
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        input(type="date" name="book_in_date" required)
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        input(type="time" name="book_in_time" required)
-        p Zwrot
-        select(name='book_out_place' required)
-            option(value='bialystok') Białystok
-            option(value='bielsko_biala') Bielsko-Biała
-            option(value='bydgoszcz') Bydgoszcz
-            option(value='Bytom') Bytom
-            option(value='gdansk') Gdańsk
-            option(value='katowice') Katowice
-            option(value='kielce') Kielce
-            option(value='krakow') Kraków
-            option(value='warszawa') Warszawa
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        input(type="date" name="book_out_date" required)
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        input(type="time" name="book_out_time" required)
-        br
-        br
-        input(type="submit")
+
 
 
 
