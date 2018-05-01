@@ -17,7 +17,7 @@ html(lang='en')
                 a(href='/admin') Administration
             li
                 a(href='/reserve') Reserve
-    form(method='POST' action='register')
+    form(method='POST' action='/reserveResult')
         p Odbiór
         select(name='book_in_place' required)
             option(value='bialystok') Białystok
@@ -51,15 +51,29 @@ html(lang='en')
         br
         br
         p Imię:
-        input(type=text name="customer_name" required)
+        input(type=text name="consumer_name" required)
         p Nazwisko
-        input(type=text name="customer_surname" required)
+        input(type=text name="consumer_surname" required)
         p Numer dowodu osobistego
         input(type=text name="ID_card_number" required)
         p E-mail
-        input(type=email name="email" required)
+        input(type=email name="consumer_email" required)
         p Telefon Kontaktowy
-        input(type=number name="customer_phone" required)
-        p
-    input(type="submit")
+        input(type=number name="consumer_phone" required)
+        p Wybrane auto
+        select(name="chosen_car")
+            option(value="fiat500") Fiat 500
+            option(value="kia_picanto") Kia Picanto
+            option(value="opel_corsa") Opel Corsa
+            option(value="renault_clio") Renault Clio
+            option(value="hyunday_i30") Hyunday i30
+            option(value="kia_ceed") Kia Ceed
+            option(value="mazda6") Mazda 6
+            option(value="toyota_avensis") Toyota Avensis
+            option(value="peugeot_partner") Peugeot Partner
+            option(value="mercedes_glc") Mercedes GLC
+            option(value="bmw_x4") BMW X4
+        br
+        br
+        input(type="submit")
 
