@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
 }
 
 a {
@@ -35,5 +36,9 @@ li:last-child {
   border-right: none;
 }
 h1 {
+  color: red;
+}
+.active {
+  background-color: #4CAF50;
   color: red;
 }
