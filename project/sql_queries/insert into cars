@@ -1,0 +1,31 @@
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'A+','Kia Picanto', 95, 1,4,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/kia_pinceto.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'B','Opel Corsa', 99, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/B/opel_corsa.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'B','Renault Clio', 99, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/B/Renault_Clio.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'C','Hyundai i30', 139, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/C/hyundai_i30.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'C','Kia Ceed', 139, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/C/Kia_ceed.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'D','Mazda 6', 199, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/D/mazda_6.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'D','Toyota Avensis', 199, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/D/Toyota_avensis.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'Minivan','Peugeot Partner', 179, 1,5,'Benzyna','Manualna',0,'/home/linuxlite/Documents/PAI/project/images/minivan/peugeot_partner.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'P','BMW X4', 399, 1,5,'Diesel','Automatyczna',0,'/home/linuxlite/Documents/PAI/project/images/P/bmw_x4.png');
+
+insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioning, number_of_seats, engine_type, transmission, bluetooth, image_link)
+values('Osobowe', 'P','Mercedes GLC', 399, 1,5,'Diesel','Automatyczna',1,'/home/linuxlite/Documents/PAI/project/images/P/mercedes_glc.png');
+
+select * from cars;
