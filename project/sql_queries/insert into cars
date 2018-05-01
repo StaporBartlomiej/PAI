@@ -29,3 +29,15 @@ insert into cars ( car_type, cost_class, car_name, price_per_day, air_conditioni
 values('Osobowe', 'P','Mercedes GLC', 399, 1,5,'Diesel','Automatyczna',1,'/home/linuxlite/Documents/PAI/project/images/P/mercedes_glc.png');
 
 select * from cars;
+
+update cars set image_link='/images/fiat500.jpg' where car_name="Fiat 500";
+update cars set image_link='/images/kia_pinceto.jpg' where car_name="Kia Picanto";
+update cars set image_link='/images/opel_corsa.jpg' where car_name="Opel Corsa";
+update cars set image_link='/images/Renault_Clio.jpg' where car_name="Renault Clio";
+update cars set image_link='/images/hyundai_i30.jpg' where car_name="Hyundai i30";
+update cars set image_link='/images/Kia_ceed.jpg' where car_name="Kia Ceed";
+update cars set image_link='/images/mazda_6.jpg' where car_name="Mazda 6";
+update cars set image_link='/images/Toyota_avensis.jpg' where car_name="Toyota Avensis";
+update cars set image_link='/images/mercedes_glc.jpg' where car_name="Mercedes GLC";
+update cars set image_link='/images/peugeot_partner.jpg' where car_name="Peugeot Partner";
+update cars set image_link='/images/bmw_x4.jpg' where car_name="BMW X4";
