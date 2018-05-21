@@ -3,11 +3,19 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  form(method='POST' action='register')
-    input(type="text" name="country_code")
-    input(type="submit")
-  div
-    table
-      each city in dane
-        tr
-          td #{city.Name}
+  form(name="find-country", method="post", action="/code")
+    div.input
+      span.label Country code: 
+      input(type="text", name="code")
+    div.actions
+      input(type="submit", value="Find!")
+    div
+      table
+        thead
+          tr: th dane
+        tbody
+          each city in dane
+            tr
+              each row in city
+                td #{row}
+

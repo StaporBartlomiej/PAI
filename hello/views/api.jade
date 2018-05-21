@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  script.
+    $.ajax('http://localhost:3000/api/country', {
+      method: 'GET'}).then(function(data) {
+        console.log(data);
+    });;
+  p xD
+ 
+    
